@@ -1,0 +1,142 @@
+\begin{thebibliography}{10}
+
+\bibitem{adler:detecting}
+B.~Adler, L.~de~Alfaro, and I.~Pye.
+\newblock Detecting wikipedia vandalism using wikitrust.
+\newblock {\em Notebook papers of CLEF}, 1:22--23, 2010.
+
+\bibitem{adler:wikipedia}
+B.~T. Adler, L.~De~Alfaro, S.~M. Mola-Velasco, P.~Rosso, and A.~G. West.
+\newblock Wikipedia vandalism detection: Combining natural language, metadata,
+  and reputation features.
+\newblock In {\em Computational linguistics and intelligent text processing},
+  pages 277--288. Springer, 2011.
+
+\bibitem{arazy:determinants}
+O.~Arazy and O.~Nov.
+\newblock Determinants of wikipedia quality: the roles of global and local
+  contribution inequality.
+\newblock In {\em Proceedings of the 2010 ACM conference on Computer supported
+  cooperative work}, pages 233--236. ACM, 2010.
+
+\bibitem{breiman:random}
+L.~Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45(1):5--32, 2001.
+
+\bibitem{geiger:levee}
+R.~S. Geiger and A.~Halfaker.
+\newblock When the levee breaks: without bots, what happens to wikipedia's
+  quality control processes?
+\newblock In {\em Proceedings of the 9th International Symposium on Open
+  Collaboration}, page~6. ACM, 2013.
+
+\bibitem{geiger:work}
+R.~S. Geiger and D.~Ribes.
+\newblock The work of sustaining order in wikipedia: the banning of a vandal.
+\newblock In {\em Proceedings of the 2010 ACM conference on Computer supported
+  cooperative work}, pages 117--126. ACM, 2010.
+
+\bibitem{giles:internet}
+J.~Giles.
+\newblock Internet encyclopaedias go head to head.
+\newblock {\em Nature}, 438(7070):900--901, 2005.
+
+\bibitem{harpalani:language}
+M.~Harpalani, M.~Hart, S.~Singh, R.~Johnson, and Y.~Choi.
+\newblock Language of vandalism: Improving wikipedia vandalism detection via
+  stylometric analysis.
+\newblock In {\em Proceedings of the 49th Annual Meeting of the Association for
+  Computational Linguistics: Human Language Technologies: short papers-Volume
+  2}, pages 83--88. Association for Computational Linguistics, 2011.
+
+\bibitem{heindorf:towards}
+S.~Heindorf, M.~Potthast, B.~Stein, and G.~Engels.
+\newblock Towards vandalism detection in knowledge bases: Corpus construction
+  and analysis.
+\newblock In {\em Proceedings of the 38th International ACM SIGIR Conference on
+  Research and Development in Information Retrieval}, pages 831--834. ACM,
+  2015.
+
+\bibitem{kittur:harnessing}
+A.~Kittur and R.~E. Kraut.
+\newblock Harnessing the wisdom of crowds in wikipedia: quality through
+  coordination.
+\newblock In {\em Proceedings of the 2008 ACM conference on Computer supported
+  cooperative work}, pages 37--46. ACM, 2008.
+
+\bibitem{kolbe:whither}
+A.~Kolbe.
+\newblock Whither wikidata?
+\newblock
+  https://en.wikipedia.org/wiki/Wikipedia:Wikipedia\_Signpost/2015-12-02/Op-ed,
+  2015.
+\newblock [Online; accessed 10-February-2016].
+
+\bibitem{neis:towards}
+P.~Neis, M.~Goetz, and A.~Zipf.
+\newblock Towards automatic vandalism detection in openstreetmap.
+\newblock {\em ISPRS International Journal of Geo-Information}, 1(3):315--332,
+  2012.
+
+\bibitem{potthast:crowdsourcing}
+M.~Potthast.
+\newblock Crowdsourcing a wikipedia vandalism corpus.
+\newblock In {\em Proceedings of the 33rd international ACM SIGIR conference on
+  Research and development in information retrieval}, pages 789--790. ACM,
+  2010.
+
+\bibitem{schneider:accept}
+J.~Schneider, B.~S. Gelley, and A.~Halfaker.
+\newblock Accept, decline, postpone: How newcomer productivity is reduced in
+  english wikipedia by pre-publication review.
+\newblock In {\em Proceedings of the international symposium on open
+  collaboration}, page~26. ACM, 2014.
+
+\bibitem{smets:automatic}
+K.~Smets, B.~Goethals, and B.~Verdonk.
+\newblock Automatic vandalism detection in wikipedia: Towards a machine
+  learning approach.
+\newblock In {\em AAAI workshop on Wikipedia and artificial intelligence: An
+  Evolving Synergy}, pages 43--48, 2008.
+
+\bibitem{stvilia:assessing}
+B.~Stvilia, M.~B. Twidale, L.~C. Smith, and L.~Gasser.
+\newblock Assessing information quality of a community-based encyclopedia.
+\newblock In {\em IQ}, 2005.
+
+\bibitem{stvilia:information}
+B.~Stvilia, M.~B. Twidale, L.~C. Smith, and L.~Gasser.
+\newblock Information quality work organization in wikipedia.
+\newblock {\em Journal of the American society for information science and
+  technology}, 59(6):983--1001, 2008.
+
+\bibitem{tan:trust}
+C.~H. Tan, E.~Agichtein, P.~Ipeirotis, and E.~Gabrilovich.
+\newblock Trust, but verify: Predicting contribution quality for knowledge base
+  construction and curation.
+\newblock In {\em Proceedings of the 7th ACM international conference on Web
+  search and data mining}, pages 553--562. ACM, 2014.
+
+\bibitem{wang:got}
+W.~Y. Wang and K.~R. McKeown.
+\newblock Got you!: automatic vandalism detection in wikipedia with web-based
+  shallow syntactic-semantic modeling.
+\newblock In {\em Proceedings of the 23rd International Conference on
+  Computational Linguistics}, pages 1146--1154. Association for Computational
+  Linguistics, 2010.
+
+\bibitem{warncke:tell}
+M.~Warncke-Wang, D.~Cosley, and J.~Riedl.
+\newblock Tell me more: An actionable quality model for wikipedia.
+\newblock In {\em Proceedings of the 9th International Symposium on Open
+  Collaboration}, page~8. ACM, 2013.
+
+\bibitem{west:detecting}
+A.~G. West, S.~Kannan, and I.~Lee.
+\newblock Detecting wikipedia vandalism via spatio-temporal analysis of
+  revision metadata?
+\newblock In {\em Proceedings of the Third European Workshop on System
+  Security}, pages 22--28. ACM, 2010.
+
+\end{thebibliography}
