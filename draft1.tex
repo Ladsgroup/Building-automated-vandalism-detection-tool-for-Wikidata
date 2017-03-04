@@ -2,6 +2,14 @@
 % Building automated vandalism detection tool for Wikidata
 % Author: A. Sarabadani / A. Halfkaer / D. Taraborelli
 \documentclass{sig-alternate-2013}
+% Set letter paper size:
+\setlength{\paperheight}{11in}
+\setlength{\paperwidth}{8.5in}
+\usepackage[
+  pass,% keep layout unchanged
+  % showframe,% show the layout
+]{geometry}
+\usepackage{url}
 \permission{\copyright 2017 International World Wide Web Conference Committee \\ (IW3C2), published under Creative Commons CC BY 4.0 License.}
 \conferenceinfo{WWW'17 Companion,}{April 3--7, 2017, Perth, Australia.}
 \copyrightetc{ACM \the\acmcopyr}
@@ -14,7 +22,7 @@ http://dx.doi.org/10.1145/3041021.3053366 \\
 
 \begin{document}
 
-\title{Building automated vandalism detection tools for Wikidata}
+\title{Building Automated Vandalism Detection Tools for Wikidata}
 \numberofauthors{3}
 
 \author{
@@ -155,7 +163,7 @@ Before starting to build the damage detection classifier, we launched a communit
 \item[Is date of birth changed]  Changing a person's date of birth
 \item[Is image changed]  Changing the item image to an unrelated image
 \item[Is image of signature changed]  Changing the signature image for people
-\item[Is category of this item at Wikimedia Commons changed]  Changing the Commons category associated with an item
+\item[Is category of this item at Commons changed]  Changing the Wikimedia Commons category associated with an item
 \item[Is official website has changed]  Changing the official website property of an item
 \item[Is this item about a human]  The item is an instance of human
 \item[Is this item is about a living human]  The item is an instance of human and living
@@ -245,7 +253,7 @@ Figures ~\ref{fig:filter_rate_no_user} and ~\ref{fig:filter_rate_user} show the 
 \caption{Density of response timing per revision score requested from the ORES wikidata-reverted model.}
 \label{fig:ores_response}
 \end{figure}
-Requests for the scoring of a single revision typically respond in \~0.5 seconds with rare cases taking up to 2-10 seconds.  If the score has already been generated and cached, the system will generally respond in 0.01 seconds.  This is a common use-case, since we run a pre-caching service that caches scores for edits as soon as they are saved.  ORES also provides the ability to request scores in batch mode, which allows the system to gather basic data for feature extraction in batches as well.  When requesting predictions in 50 revision batches, we found that the service responds in about ~0.12 seconds per revision in the batch.  As figure ~\ref{fig:ores_response} suggests, this timing varies quite widely which is likely due to rare individual edits that take a long time to score and hold back the whole batch from finishing.
+Requests for the scoring of a single revision typically respond in $\sim$0.5 seconds with rare cases taking up to 2-10 seconds.  If the score has already been generated and cached, the system will generally respond in 0.01 seconds.  This is a common use-case, since we run a pre-caching service that caches scores for edits as soon as they are saved.  ORES also provides the ability to request scores in batch mode, which allows the system to gather basic data for feature extraction in batches as well.  When requesting predictions in 50 revision batches, we found that the service responds in about 0.12 seconds per revision in the batch.  As figure ~\ref{fig:ores_response} suggests, this timing varies quite widely which is likely due to rare individual edits that take a long time to score and hold back the whole batch from finishing.
 
 \section{Limitations}
 
